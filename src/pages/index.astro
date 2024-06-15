@@ -1,13 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Pay from "../components/Pay.jsx";
 ---
 
 <script is:inline>var global = global || window;</script>
 <Layout title={"Hello World"}>
-	<div>
-		<label for="Amount">First name: </label>
-		<input type="text" id="fname" name="fname"><br><br>
-		<input type="submit" onclick="" value="Submit">
-	  </div>	
+	<Pay />
 </Layout>
 
